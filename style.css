@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+*{padding:0;
+margin:0;}
+
+.container{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    min-height: 100vh;
+}
+.left{
+    background-image:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    min-height:420px;
+    max-width:325px;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    text-align: center;
+    color: white;
+    font-family: 'Hanken Grotesk', sans-serif;
+    border-radius: 30px;
+    position: relative;
+    left:20px;
+
+    
+}
+.right{
+    background-color:white;
+    min-height:420px;
+    min-width:270px;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    padding-left:60px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    box-shadow: 5px 10px 8px hsl(0, 8%, 90%);
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+.round{
+    border:none;
+    border-radius:100%;
+    margin-left:75px;
+    margin-right:75px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-image:linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    position: relative;
+    bottom:10px;
+}
+p{
+    font-size:15px;
+}
+.head{
+    position: relative;
+    bottom:38px;
+    color:white;
+    opacity:0.5;
+}
+h2{
+    position: relative;
+    top:10px; 
+}
+.par{
+    position :relative;
+    top:23px;
+    margin-right:60px;
+    margin-left:60px;
+    opacity: 0.5;
+}
+h1{
+    font-size:60px;
+}
+.btn{
+    width:230px;
+    background-color:hsl(224, 30%, 27%) ;
+    color: white;
+    font-family: 'Hanken Grotesk', sans-serif;
+    padding-top:12px;
+    padding-bottom: 12px;
+    border-radius:25px;
+    position:relative;
+    top:60px;
+    border: none;
+
+}
+.rec{
+    border:none;
+    margin-right:40px;
+    background-color:hsl(0, 73%, 96%);
+    padding-left:10px;
+    padding-top:12px;
+    padding-bottom:12px;
+    position: relative;
+    bottom:30px;
+    border-radius:10px;
+    color: hsl(0, 100%, 67%);
+}
+.mem{
+    border:none; 
+    background-color: hsl(39, 73%, 96%);
+    margin-right:40px;
+    padding-left:10px;
+    padding-top:12px;
+    padding-bottom:12px;
+    position: relative;
+    bottom:12px;
+    border-radius:10px;
+    color:hsl(39, 100%, 56%);
+}
+.ver{
+    border:none; 
+    background-color:hsl(166, 73%, 96%);
+    margin-right:40px;
+    padding-left:10px;
+    padding-top:12px;
+    padding-bottom:12px;
+    position: relative;
+    top:5px;
+    border-radius:10px;
+    color:hsl(166, 100%, 37%);
+}
+.vis{
+    border:none;
+    background-color:hsl(234, 73%, 96%);
+    margin-right:40px;
+    padding-left:10px;
+    padding-top:12px;
+    padding-bottom:12px;
+    position: relative;
+    top:25px;
+    border-radius:10px;
+    color:hsl(234, 85%, 45%);
+}
+.first{
+    padding-left:60px;
+    color:hsl(224, 30%, 27%) ;
+}
+.second{
+    padding-left:62px;
+    color:hsl(224, 30%, 27%) ; 
+}
+.third{
+    padding-left:74px; 
+    color:hsl(224, 30%, 27%) ;
+}
+.fourth{
+    padding-left:77px;
+    color:hsl(224, 30%, 27%) ;  
+}
+.rec img{
+    width:15px;
+    position:relative;
+    top:2px;
+    padding-right:5px;
+}
+.mem img{
+    width:15px;
+    position:relative;
+    top:2px;
+    padding-right:5px;
+}
+.ver img{
+    width:15px;
+    position:relative;
+    top:2px;
+    padding-right:5px;
+}
+.vis img{
+    width:15px;
+    position:relative;
+    top:2px;
+    padding-right:5px;
+}
+h3{
+    position:relative;
+    bottom:58px;
+    color:hsl(224, 30%, 27%) ;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.bt{
+    color:hsl(224, 30%, 27%);
+    opacity: 0.5;
+}
+.out{
+    color:white;
+    opacity:0.5;
+}
+@media screen and (max-width:768px){
+    .container{
+        display:flex;
+        justify-content: center;
+        flex-direction:column;
+        align-items: center;
+        min-height: 100vh;
+    }
+    .left{
+        border-top-left-radius:0px;
+        border-top-right-radius:0px;
+        position:relative;
+        left:0px;
+        min-width:100vw;
+        min-height:60vh;   
+    }
+    .right{
+        border:none;
+        border-radius:0px;
+        box-shadow:0px 0px white;
+        position: relative;
+        right:20px;
+    }
+    .round{
+        margin-left:120px;
+        margin-right:120px; 
+    }
+    .par{
+        margin-right:80px;
+        margin-left:80px;
+    }
+}
